@@ -83,4 +83,15 @@ void main(){
   Map<String, num> prices = {"milk_price": 2.99, "bread_price": 4.50};
 
   print("You cart consist of ${cart[0]} and ${cart[1]} and your total cost is ${(prices["milk_price"] ?? 0) + (prices["bread_price"] ?? 0)}");
+
+  const personMap = {
+    "fullName": "Julius Tamale",
+    "isDeveloper": true,
+    "techStack": ["go", "dart", "flutter", "vue"]
+  };
+
+  print(
+    "Your name is ${personMap["fullName"]} & "
+    "${personMap["isDeveloper"] as bool ? "your tech stack is ${personMap["techStack"]}": "you are not a developer"}"
+    );
 }
