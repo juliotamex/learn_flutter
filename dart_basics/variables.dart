@@ -1,5 +1,3 @@
-// TODO: Variables & Data types in Dart
-
 /**
  * Variables in Dart are declared using Type Inference & Explicit Type
     - Type inference is when you use the "var" keyword & let Dart guess the
